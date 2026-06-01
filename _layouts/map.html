@@ -1,1 +1,26 @@
-layout: map
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+
+    <article style="max-width: 750px; margin: auto; line-height: 1.6;">
+
+      <h1>{{ page.title }}</h1>
+
+      <p><strong>Año:</strong> {{ page.año }}</p>
+      <p><strong>Autor:</strong> {{ page.autor }}</p>
+      <p><strong>Tipo:</strong> {{ page.tipo }}</p>
+      <p><strong>Tamaño:</strong> {{ page.tamaño }}</p>
+      <p><strong>Libro de origen:</strong> {{ page.libro_de_origen }}</p>
+
+      <hr>
+
+      {{ content }}
+
+    </article>
+
+  </body>
+</html>

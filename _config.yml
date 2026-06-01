@@ -1,14 +1,8 @@
----
-layout: default
 title: Mapas del Ecuador
----
+description: Archivo digital de mapas históricos del Ecuador
 
-# Mapas del Ecuador
+theme: minima
 
-Archivo digital de mapas históricos del Ecuador.
-
-## Catálogo
-
-{% for map in site.maps %}
-- {{ map.title }} ({{ map.year }})
-{% endfor %}
+collections:
+  maps:
+    output: true

@@ -10,5 +10,6 @@ Archivo digital de mapas históricos del Ecuador.
 ## Catálogo
 
 {% for map in site.maps %}
-- <a href="{{ map.url }}">{{ map.title }}</a> ({{ map.año }})
+- <a href="{{ map.url }}">{{ map.title }}</a>
+  {% if map.año %} ({{ map.año }}){% endif %}
 {% endfor %}

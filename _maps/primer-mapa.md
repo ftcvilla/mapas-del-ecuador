@@ -5,7 +5,7 @@ año: 1858
 autor: ""
 tipo: ""
 tamaño: ""
-layout: mapa
+layout: map
 ---
 
 Este es un mapa de prueba para el archivo.

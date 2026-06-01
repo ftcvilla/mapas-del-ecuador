@@ -7,3 +7,5 @@ tipo: ""
 tamaño: ""
 layout: mapa
 ---
+
+Este es un mapa de prueba para el archivo.

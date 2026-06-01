@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Mapas del Ecuador
 ---
 
@@ -7,13 +7,8 @@ title: Mapas del Ecuador
 
 Archivo digital de mapas históricos del Ecuador.
 
-## Explorar por categoría
+## Catálogo
 
-- Período histórico
-- Tipo de mapa
-- Región
-- Libro de procedencia
-
-## Mapas destacados
-
-Próximamente.
+{% for map in site.maps %}
+- **{{ map.title }}** ({{ map.year }})
+{% endfor %}

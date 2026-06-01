@@ -3,6 +3,8 @@ description: Archivo digital de mapas históricos del Ecuador
 
 theme: minima
 
+baseurl: /mapas-del-ecuador
+
 collections:
   maps:
     output: true

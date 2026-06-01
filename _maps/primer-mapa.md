@@ -1,11 +1,11 @@
 ---
 title: Primer mapa
-year: 1858
-period: Republicano
-map_type: Administrativo
-topics:
-  - Quito
-  - Límites
+libro_de_origen: ""
+año: 1858
+autor: ""
+tipo: ""
+tamaño: ""
+layout: mapa
 ---
 
 Este es un mapa de prueba para el archivo.

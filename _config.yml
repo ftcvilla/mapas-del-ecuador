@@ -6,4 +6,4 @@ theme: minima
 collections:
   maps:
     output: true
-    permalink: /maps/:name/ 
+    permalink: /maps/:name/

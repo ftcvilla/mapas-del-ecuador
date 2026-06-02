@@ -9,6 +9,6 @@ collections:
   maps:
     output: true
     permalink: /maps/:name/
-  ilustraciones:
+  illustrations:
     output: true
     permalink: /ilustraciones/:name/

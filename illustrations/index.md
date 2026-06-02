@@ -8,7 +8,7 @@ permalink: /illustrations/
 
 <div class="illustrations-grid">
 
-  {% for ill in site.illustrations %}
+{% for ill in site.illustrations %}
 
   <div class="illustration-item">
 
@@ -30,12 +30,6 @@ permalink: /illustrations/
 
   </div>
 
-  {% endfor %}
-
-</div>
-
-  </div>
-
-  {% endfor %}
+{% endfor %}
 
 </div>

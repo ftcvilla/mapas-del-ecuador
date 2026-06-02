@@ -3,7 +3,7 @@ title: Primer mapa
 libro_de_origen: Atlas histórico del Ecuador
 anio: 1858
 autor: Manuel Villavicencio
-tamano: 32 × 45 cm
+tamano: 32 x 45 cm
 image: /assets/images/maps/primer-mapa.jpeg
 layout: map
 ---

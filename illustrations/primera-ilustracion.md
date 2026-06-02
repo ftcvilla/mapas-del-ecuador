@@ -7,8 +7,9 @@ trazado_por: Desconocido
 tamano: 32 x 45 cm
 image: /assets/images/illustrations/segundo-mapa.jpeg
 layout: map
+nav_exclude: true
 ---
 
 Mapa de prueba para el archivo. Información no verificada.
 
-nav_exclude: true
+

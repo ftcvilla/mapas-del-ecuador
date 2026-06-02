@@ -42,13 +42,17 @@ title: Mapas del Ecuador
 </table>
 
 <script>
-document.getElementById("mapSearch").addEventListener("keyup", function() {
-  const value = this.value.toLowerCase();
-  const rows = document.querySelectorAll(".catalog tbody tr");
+window.addEventListener("DOMContentLoaded", function () {
+  const input = document.getElementById("mapSearch");
 
-  rows.forEach(row => {
-    const text = row.innerText.toLowerCase();
-    row.style.display = text.includes(value) ? "" : "none";
+  input.addEventListener("keyup", function () {
+    const value = this.value.toLowerCase();
+    const rows = document.querySelectorAll(".catalog tbody tr");
+
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      row.style.display = text.includes(value) ? "" : "none";
+    });
   });
 });
 </script>

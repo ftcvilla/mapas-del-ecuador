@@ -7,6 +7,34 @@ title: Mapas del Ecuador
 
 ## Catálogo
 
-{% for map in site.maps %}
-- <a href="{{ map.url | relative_url }}">{{ map.title }}</a>
-{% endfor %}
+<table class="catalog">
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Libro de origen</th>
+      <th>Año</th>
+      <th>Abrir</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% assign sorted_maps = site.maps | sort: "anio" %}
+
+    {% for map in sorted_maps %}
+    <tr>
+      <td>
+        <a href="{{ map.url | relative_url }}">
+          {{ map.title }}
+        </a>
+      </td>
+
+      <td>{{ map.libro_de_origen }}</td>
+      <td>{{ map.anio }}</td>
+
+      <td>
+        <a href="{{ map.url | relative_url }}">Abrir</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

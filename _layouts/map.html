@@ -6,17 +6,20 @@
   </head>
   <body>
 
-    <article style="max-width: 750px; margin: auto; line-height: 1.6;">
-
+    <article style="max-width: 1200px; margin: auto; line-height: 1.6;">
+      
       <h1>{{ page.title }}</h1>
       
-      {% if page.image %}
-<p>
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width:100%;">
+     {% if page.image %}
+<p style="text-align:center;">
+  <img
+    src="{{ page.image | relative_url }}"
+    alt="{{ page.title }}"
+    style="width:100%; max-width:1200px; height:auto;">
 </p>
 {% endif %}
 
-      <p><strong>Libro de origen:</strong> {{ page.libro_de_origen }}</p>
+<p><strong>Libro de origen:</strong> {{ page.libro_de_origen }}</p>
 
 <p><strong>Autor del libro:</strong> {{ page.autor_del_libro }}</p>
 

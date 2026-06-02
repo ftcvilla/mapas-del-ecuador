@@ -16,10 +16,17 @@
 </p>
 {% endif %}
 
-      <p><strong>Año:</strong> {{ page.anio }}</p>
-      <p><strong>Autor:</strong> {{ page.autor }}</p>
-      <p><strong>Tamaño:</strong> {{ page.tamano }}</p>
       <p><strong>Libro de origen:</strong> {{ page.libro_de_origen }}</p>
+
+<p><strong>Autor del libro:</strong> {{ page.autor_del_libro }}</p>
+
+<p><strong>Año:</strong> {{ page.anio }}</p>
+
+{% if page.trazado_por %}
+<p><strong>Trazado por:</strong> {{ page.trazado_por }}</p>
+{% endif %}
+
+<p><strong>Tamaño:</strong> {{ page.tamano }}</p>
 
       <hr>
 

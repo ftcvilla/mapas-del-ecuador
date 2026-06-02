@@ -5,6 +5,13 @@ title: Mapas del Ecuador
 
 ## Catálogo
 
+<input
+  type="text"
+  id="mapSearch"
+  placeholder="Buscar mapas..."
+  style="width: 100%; padding: 8px; margin-bottom: 12px;"
+>
+
 <table class="catalog">
  <thead>
   <tr>

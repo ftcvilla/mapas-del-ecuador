@@ -10,3 +10,5 @@ layout: map
 ---
 
 Mapa de prueba para el archivo. Información no verificada.
+
+nav_exclude: true

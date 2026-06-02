@@ -3,8 +3,6 @@ layout: home
 title: Mapas del Ecuador
 ---
 
-# Mapas del Ecuador
-
 ## Catálogo
 
 <table class="catalog">
@@ -20,21 +18,18 @@ title: Mapas del Ecuador
   <tbody>
     {% assign sorted_maps = site.maps | sort: "anio" %}
 
-    {% for map in sorted_maps %}
-    <tr>
-      <td>
-        <a href="{{ map.url | relative_url }}">
-          {{ map.title }}
-        </a>
-      </td>
+   {% for map in sorted_maps %}
+<tr>
+  <td>
+    <a href="{{ map.url | relative_url }}">
+      {{ map.title }}
+    </a>
+  </td>
 
-      <td>{{ map.libro_de_origen }}</td>
-      <td>{{ map.anio }}</td>
-
-      <td>
-        <a href="{{ map.url | relative_url }}">Abrir</a>
-      </td>
-    </tr>
-    {% endfor %}
+  <td>{{ map.libro_de_origen }}</td>
+  <td>{{ map.autor_del_libro }}</td>
+  <td>{{ map.anio }}</td>
+</tr>
+{% endfor %}
   </tbody>
 </table>

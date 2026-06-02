@@ -6,10 +6,6 @@ permalink: /illustrations/
 
 # Ilustraciones
 
-Una colección independiente de imágenes históricas derivadas de fuentes documentales.
-
----
-
 <div class="illustrations-grid">
 
   {% for ill in site.illustrations %}
@@ -31,6 +27,12 @@ Una colección independiente de imágenes históricas derivadas de fuentes docum
     {% if ill.anio %}
     <p>{{ ill.anio }}</p>
     {% endif %}
+
+  </div>
+
+  {% endfor %}
+
+</div>
 
   </div>
 

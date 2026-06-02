@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Mapas del Ecuador
+title: Mapas
 ---
 
 ## Catálogo
@@ -9,8 +9,7 @@ title: Mapas del Ecuador
   type="text"
   id="mapSearch"
   placeholder="Buscar mapas..."
-  style="width: 100%; padding: 8px; margin-bottom: 12px;"
->
+  style="width: 100%; padding: 8px; margin-bottom: 12px;">
 
 <table class="catalog">
   <thead>

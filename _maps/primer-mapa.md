@@ -4,7 +4,7 @@ libro_de_origen: Atlas histórico del Ecuador
 anio: 1858
 autor: Manuel Villavicencio
 tamano: 32 × 45 cm
-imagen: /assets/images/primer-mapa.jpeg
+image: /assets/images/maps/primer-mapa.jpeg
 layout: map
 ---
 

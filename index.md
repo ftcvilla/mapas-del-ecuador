@@ -1,8 +1,3 @@
----
-layout: home
-title: Mapas
----
-
 ## Catálogo
 
 <input

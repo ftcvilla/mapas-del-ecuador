@@ -5,7 +5,7 @@ año: 1858
 autor: ""
 tipo: ""
 tamaño: ""
-imagen: /assets/images/primer-mapa.jpg
+imagen: /assets/images/primer-mapa.jpeg
 layout: map
 ---
 

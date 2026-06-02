@@ -6,16 +6,24 @@
   </head>
   <body>
 
-    <article style="max-width: 1200px; margin: auto; line-height: 1.6;">
+    <article style="max-width: 900px; margin: auto; line-height: 1.6;">
       
       <h1>{{ page.title }}</h1>
       
-     {% if page.image %}
+    {% if page.image %}
 <p style="text-align:center;">
-  <img
-    src="{{ page.image | relative_url }}"
-    alt="{{ page.title }}"
-    style="width:100%; max-width:1200px; height:auto;">
+  <a href="{{ page.image | relative_url }}" target="_blank">
+    <img
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.title }}"
+      style="max-width:100%; height:auto;">
+  </a>
+</p>
+
+<p style="text-align:center;">
+  <a href="{{ page.image | relative_url }}" download>
+    Descargar imagen
+  </a>
 </p>
 {% endif %}
 

@@ -1,14 +1,6 @@
 ---
 layout: home
-title: Todos los mapas
-permalink: /maps/
----
-
-# Todos los mapas
-
----
-layout: home
-title: Todos los planos
+title: Mapas
 permalink: /maps/
 ---
 

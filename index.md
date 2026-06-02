@@ -40,3 +40,15 @@ title: Mapas del Ecuador
   {% endfor %}
 </tbody>
 </table>
+
+<script>
+document.getElementById("mapSearch").addEventListener("keyup", function() {
+  const value = this.value.toLowerCase();
+  const rows = document.querySelectorAll(".catalog tbody tr");
+
+  rows.forEach(row => {
+    const text = row.innerText.toLowerCase();
+    row.style.display = text.includes(value) ? "" : "none";
+  });
+});
+</script>

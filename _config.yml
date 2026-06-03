@@ -5,11 +5,6 @@ theme: minima
 
 baseurl: /mapas-del-ecuador
 
-header_pages:
-  - index.md
-  - ilustraciones.md
-  - mapas.md
-
 collections:
   maps:
     output: true
